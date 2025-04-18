@@ -130,9 +130,68 @@ export const About = () => {
                 <div className="grid grid-cols-1 md:grid-cols2 gap-6 mt-8">
                     <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                         <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
+                        <ul className="list-disc list-inside text-gray-300 space-y-2">
+                                <strong>B.S. in Computer Science</strong> - University of Sharjah
+                                (2020-2024)
+                            <li>
+                                Relevant Coursework: Data Structures, Design & Analysis of Algorithms,
+                                Operating Systems, Software Engineer, Information Systems, Interactive
+                                3D Design, etc.
+                            </li>
+                            <br />
+                                <strong>MEng in Systems and Technology <i>specilizing in Automation and Smart Systems</i></strong> - McMaster University
+                                (2024-2026)
+                            <li>
+                                Relevant Coursework: Machine Learning, Deep Learning, Internet 
+                                of Things, Computational Natural Language Processing, Cloud Computing, etc.
+                            </li>
+                        </ul>
                     </div>
                     <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                         <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
+                        <div className="space-y-4 text-gray-300">
+                            <div>
+                                <h4 className="font-semibold">
+                                    {" "}
+                                    AI / Software Engineer intern at LABonWEB (01/25 - 08/25){" "}
+                                </h4>
+                                <li>
+                                    Intern at LABonWEB, adding features to the chatbot, enhancing the functionalities and performance of the AI assistant
+                                    chatbot, experimenting with different Deep Learning frameworks such as LLMs, PyTorch to automate and enhance
+                                    the creation of simulation labs for students and educators.
+                                </li>
+                            </div>
+
+                            <div>
+                                <h4 className="font-semibold">
+                                    {" "}
+                                    Research Assistant at University of Sharjah (08/23 - 02/24){" "}
+                                </h4>
+                                <li>
+                                    Engineered Large Language Models (LLMs), such as Llama and Mistral, to analyze texts within various types of
+                                    files (such as pdfs, excel sheets, etc.) and making it locally so that LLMs don&apos;t get trained on private data.
+                                </li>
+                                <li>
+                                    Developed a chatbot where the user can upload different file types and have a conversation with an LLM by building a
+                                    Flask API and leveraging LangChain framework that automated the process of sending and retrieving data.
+                                </li>
+                            </div>
+
+                            <div>
+                                <h4 className="font-semibold">
+                                    {" "}
+                                    Machine Learning Intern at University of Sharjah (05/23 - 07/23){" "}
+                                </h4>
+                                <li>
+                                    Built text classification models, including Bert, DistilBert and RoBerta, to train them on 2000+ different Amazon
+                                    products (such as Books, Electronics, Clothes, etc) and developed a Flask pipeline making it easy to use.
+                                </li>
+                                <li>
+                                    Leveraged prompt engineering techniques to facilitate conversations with LLMs, by providing drop down buttons list
+                                    using ReactJS to allow the user to change the behavior of LLMs.
+                                </li>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

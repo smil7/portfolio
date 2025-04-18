@@ -17,8 +17,8 @@ export const Home = () => {
                     I&apos;m a ML / Software engineer who loves implementing large, scalable
                     software applications along with integrating ML solutions. Additionally, 
                     I would love working on projects that implements software into hardware 
-                    devices. My goal is to build solutions that utilizes my skills and
-                    contribute to open-source software.
+                    devices. My goal is to build solutions that contribute to open-source software
+                    and make the world better place.
                 </p>
                 <div className="flex justify-center space-x-4">
                     <a 
