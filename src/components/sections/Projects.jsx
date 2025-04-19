@@ -18,7 +18,7 @@ export const Projects = () => {
                             summarization, and question answering features 
                             through advanced generative AI.
                         </p>
-                        <div className="flex flex-wrap gap-2 mb-4">
+                        <div className="flex justify-between items-center">
                             {["React", "Flask", "PyTorch", "Transformers"].map((tech, key) => (
                                 <span 
                                     key={key}
